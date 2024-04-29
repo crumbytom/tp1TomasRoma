@@ -3,7 +3,7 @@
 require_once("arbusto.php");
 require_once("recolector.php");
 
-    Class Aldeano implements Recolector{
+    abstract Class Aldeano implements Recolector{
         private $velocidadRecoleccion;
         private $bonus;
 

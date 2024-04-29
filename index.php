@@ -1,17 +1,22 @@
 <?php
 
-
 require_once("arbusto.php");
-require_once("aldeano.php");
 require_once("bancoDePesca.php");
 require_once("pesquero.php");
+
+require_once("aldeanoChino.php");
+require_once("aldeanoFranco.php");
+
 
 
 
 
 $arbusto1 =new Arbusto();
-$aldeano1 =new Aldeano();
-$aldeano1->recolectar($arbusto1);
+
+$aldeanoChino =new AldeanoChino();
+$aldeanoFranco =new AldeanoFranco();
+
+$aldeanoChino->recolectar($arbusto1);
 
 
 $pesquero1 =new Pesquero();
