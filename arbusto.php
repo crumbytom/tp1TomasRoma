@@ -2,7 +2,7 @@
 
 require_once("aldeano.php");
 
-    Class Arbusto{
+    Class Arbusto implements Recolectable{
         private $cantidadAlimento;
 
         function __construct($cantidadAlimento=125){

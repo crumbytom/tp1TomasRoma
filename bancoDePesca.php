@@ -3,7 +3,7 @@
 require_once("pesquero.php");
 
 
-    Class bancoDePesca{
+    Class bancoDePesca implements Recolectable{
 
         private $cantidadAlimento;
 
