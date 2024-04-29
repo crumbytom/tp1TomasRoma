@@ -1,6 +1,6 @@
 <?php
 
-require_once("bancoDePesca");
+require_once("bancoDePesca.php");
 
     Class Pesquero{
 
@@ -13,9 +13,11 @@ require_once("bancoDePesca");
 
         public function Recolectar(bancoDePesca $bancoDePesca){
 
+            $cantidadAlimento = $bancoDePesca ->getAlimento();
+
             $tiempo = ceil($cantidadAlimento/$this->velocidadRecoleccion);
 
-            echo "El pesquero recolecto todos los pescados en ".$tiempo." minutos";
+            echo "<br>El pesquero recolecto todos los pescados en ".$tiempo." minutos";
 
         }
     }

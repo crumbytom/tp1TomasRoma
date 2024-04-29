@@ -1,6 +1,6 @@
 <?php
 
-require_once("pesquero");
+require_once("pesquero.php");
 
 
     Class bancoDePesca{
