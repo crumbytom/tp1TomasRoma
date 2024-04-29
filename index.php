@@ -1,5 +1,7 @@
 <?php
 
+$tituloPagina = "Inicio";
+
 require_once("arbusto.php");
 require_once("bancoDePesca.php");
 require_once("pesquero.php");
