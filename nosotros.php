@@ -2,10 +2,14 @@
 $tituloPagina = "Nosotros";
 
 require_once("header.php");
-require_once("footer.php");
 
 
 
 
+
+?>
+
+<?php
+    include_once("footer.php"); // solo llamo al footer
 
 ?>

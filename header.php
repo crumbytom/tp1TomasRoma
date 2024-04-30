@@ -18,7 +18,7 @@
             $secciones = array();
 
             $secciones ['Inicio'] = 'index.php';
-            $secciones ['Juegos'] = 'juegos.php';
+            $secciones ['Expansiones'] = 'expansiones.php';
             $secciones ['Civilizaciones'] = 'civilizaciones.php';
             $secciones ['Nosotros'] = 'nosotros.php';
 
