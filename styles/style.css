@@ -4,9 +4,48 @@ body{
 
 
 .main-inicio{
-
-    margin-top: 100px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+/*TODO HEADERRR*/
+
+.logo{
+    background-color: #000;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.logo img{
+    width: 550px;
+    height: auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #303c56;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+nav a{
+    text-decoration: none;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    margin: 0 60px;
+}
+
+
+nav a:hover{
+    color: #a89f9fcb;
+
 }

@@ -10,10 +10,10 @@
 </head>
 <body>
     
-    <header>
+    <header class="d-flex flex-column align-items-center">
         <a href="index.php" class="logo"> <img src="img/logo.png" alt="Logo Age Of Empires"></a>
         
-        <nav>
+        <nav class="mt-3">
         <?php    
             $secciones = array();
 
@@ -27,9 +27,6 @@
                 }
             ?>
         </nav>
-
-        
-
 
 
     </header>
