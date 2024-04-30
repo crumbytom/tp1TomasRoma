@@ -17,9 +17,14 @@
         <?php    
             $secciones = array();
 
-            $secciones []
+            $secciones ['Inicio'] = 'index.php';
+            $secciones ['Juegos'] = 'juegos.php';
+            $secciones ['Civilizaciones'] = 'civilizaciones.php';
+            $secciones ['Nosotros'] = 'nosotros.php';
 
-
+            foreach($secciones as $nombre => $link){ //aca recorremos el array y asociamos el nombre con los links
+                echo "<a href= $link> $nombre</a>";
+                }
             ?>
         </nav>
 
