@@ -20,13 +20,13 @@ require_once("aldeanoFranco.php");
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/age1.jpg" class="d-block w-100" alt="Captura de pantalla Age Of Empires">
+            <a href="https://www.ageofempires.com/games/aoeiiide/"><img src="img/age3.jpg" class="d-block w-100" alt="Captura de pantalla Age Of Empires"></a>
             </div>
             <div class="carousel-item">
-                <img src="img/age2.jpg" class="d-block w-100" alt="Captura de pantalla Age Of Empires 2">
+            <a href="https://www.ageofempires.com/games/aoeiiide/"><img src="img/age2.jpg" class="d-block w-100" alt="Captura de pantalla Age Of Empires 2"></a>
             </div>
             <div class="carousel-item">
-                <img src="img/age3.jpg" class="d-block w-100" alt="Captura de pantalla Age Of Empires 3">
+                <a href="https://www.ageofempires.com/games/aoeiiide/"><img src="img/age1.jpg" class="d-block w-100" alt="Captura de pantalla Age Of Empires 3"></a>
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
