@@ -41,11 +41,15 @@ nav a{
     font-weight: bold;
     font-size: 20px;
     padding: 8px;
-    margin: 0 60px;
+    margin: 0 100px;
 }
 
 
 nav a:hover{
     color: #a89f9fcb;
 
+}
+
+.footer{
+    
 }

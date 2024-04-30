@@ -1,4 +1,11 @@
-<footer>
+<footer class ="footer">
+    <div class="footer-links">
+        <a href="#">Terminos de Uso</a>
+        <a href="#">Politicas de Privacidad y Cookies</a>
+        <a href="#">Contacto</a>
+
+    </div>
+
 
 
 </footer>
