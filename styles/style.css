@@ -1,0 +1,12 @@
+body{
+    background-color: #181c29;
+}
+
+
+.main-inicio{
+
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
