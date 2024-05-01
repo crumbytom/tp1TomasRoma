@@ -36,12 +36,11 @@ require_once("header.php");
     <div class="noticias">
         <h2 class="titulo-noticias">Noticias</h2>
         <h3 class="titulo2">Calculá el nuevo tiempo de Recoleccion del Aldeano Chino</h3>
+        <div class="div-aldeano">
+            <a href="aldeanoRecoleccion.php" class="boton-aldeano">Calcular tiempo</a>
+        </div>
         <div class="aldeano">
             <img src="img/aldeanoChino.png" alt="aldeano">
-        </div>
-        <div class="boton">
-            <form action="aldeanoRecoleccion.php" method="post">
-            <input type="submit" value="Calcular Tiempo">
         </div>
         
 
