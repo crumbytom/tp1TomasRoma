@@ -88,21 +88,37 @@ nav a:hover{
 }
 
 
-/*Seccion */
+/*Seccion civilizaciones*/
 
-.contenido h1{
+.main-civilizaciones{
     text-align: center;
-    color: #ffff;
+    color: #fff;
+    margin-top: 20px;
 }
+
 
 .secciones{
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    text-align: center;
-    color: #ffff;
+    color: #fff;
 }
 
-.secciones article{
+
+.section-civi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.contenido img{
+    width: 100%;
+    max-width: 500px;
+}
+
+
+.section-civi article{
     margin-top: 20px;
 }
