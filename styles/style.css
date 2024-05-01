@@ -86,3 +86,23 @@ nav a:hover{
 .footer-links a:hover{
     color: #a89f9fcb;
 }
+
+
+/*Seccion */
+
+.contenido h1{
+    text-align: center;
+    color: #ffff;
+}
+
+.secciones{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: #ffff;
+}
+
+.secciones article{
+    margin-top: 20px;
+}
