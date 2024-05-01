@@ -22,14 +22,10 @@ $aldeanoChino =new AldeanoChino();
         <img src="img/arbusto.gif" alt="aldeano recolectando">
     </div>
 
-
     <a href="index.php" class="boton-volver">Volver al Inicio</a>
         
 
 </main>
-
-
-
 
 
 

@@ -54,9 +54,6 @@ require_once("header.php");
     </section>
 
     </div>
-
-
-
 </main>
 
 

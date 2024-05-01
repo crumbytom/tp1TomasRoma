@@ -41,6 +41,8 @@ body{
 .aldeano{
     text-align: right;
     padding: 25px;
+    padding-right: 250px;
+    margin-top: -140px;
     width: 100%;
     box-sizing: border-box;
 }
@@ -48,6 +50,13 @@ body{
 .aldeano img{
     width: 200px;
     height: auto;
+}
+
+
+.div-aldeano{
+    margin-top: 40px;
+    text-align: center;
+
 }
 
 
@@ -153,11 +162,7 @@ nav a:hover{
 }
 
 
-.div-aldeano{
-    margin-top: 40px;
-    text-align: center;
 
-}
 
 .boton-aldeano{
     width: 500px;
@@ -174,8 +179,6 @@ nav a:hover{
 .boton-aldeano:hover{
     color: #a89f9fcb;
 }
-
-
 
 
 .main-aldeano{
