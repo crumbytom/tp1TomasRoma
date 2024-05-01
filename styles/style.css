@@ -186,6 +186,8 @@ nav a:hover{
 }
 
 
+
+
 .respuesta-php{
     font-size: 20px;
     color: #fff;
@@ -193,9 +195,22 @@ nav a:hover{
     margin-top: 30px;
 }
 
+.respuesta-php2{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
 .aldeano-recolec{
     margin-top: 20px;
 }
+
+.pesquero-recolec{
+    margin-top: 20px;
+}
+
+
 
 .boton-volver{
     display: inline-block;
@@ -210,5 +225,22 @@ nav a:hover{
 }
 
 .boton-volver:hover{
+    color: #a89f9fcb;
+}
+
+
+.boton-volver2{
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #303c56;
+    font-size: 20px;
+    margin-bottom: 415px;
+}
+
+.boton-volver2:hover{
     color: #a89f9fcb;
 }

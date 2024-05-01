@@ -20,10 +20,7 @@
             $secciones = array();
 
             $secciones ['Inicio'] = 'index.php';
-            $secciones ['Expansiones'] = 'expansiones.php';
             $secciones ['Civilizaciones'] = 'civilizaciones.php';
-            $secciones ['Nosotros'] = 'nosotros.php';
-
             foreach($secciones as $nombre => $link){ //aca recorremos el array y asociamos el nombre con los links
                 echo "<a href= $link> $nombre</a>";
                 }
