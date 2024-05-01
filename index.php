@@ -40,7 +40,8 @@ require_once("header.php");
             <img src="img/aldeanoChino.png" alt="aldeano">
         </div>
         <div class="boton">
-            <a href="aldeanoRecoleccion.php" class="boton-volver">Calcular Tiempo</a>
+            <form action="aldeanoRecoleccion.php" method="post">
+            <input type="submit" value="Calcular Tiempo">
         </div>
         
 

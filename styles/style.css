@@ -151,3 +151,21 @@ nav a:hover{
 .section-civi article{
     margin-top: 20px;
 }
+
+
+
+.boton-volver, 
+.boton{
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #303c56;
+}
+
+.boton-volver:hover,
+.boton:hover{
+    color: #a89f9fcb;
+}
