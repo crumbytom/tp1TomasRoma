@@ -22,6 +22,35 @@ body{
 }
 
 
+
+.titulo-noticias{
+    font-size: 55px;
+    text-align: left;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.titulo2{
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.aldeano{
+    text-align: right;
+    padding: 25px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.aldeano img{
+    width: 200px;
+    height: auto;
+}
+
+
 /*TODO HEADERRR*/
 
 .logo{

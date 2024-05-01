@@ -11,7 +11,9 @@
 <body>
     
     <header class="d-flex flex-column align-items-center">
-        <a href="index.php" class="logo"> <img src="img/logo.png" alt="Logo Age Of Empires"></a>
+        <a href="index.php" class="logo">
+            <img src="img/logo.png" alt="Logo Age Of Empires">
+        </a>
         
         <nav class="mt-3">
         <?php    

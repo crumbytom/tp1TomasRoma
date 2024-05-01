@@ -40,7 +40,12 @@ require_once("aldeanoFranco.php");
         </div>
     </div>
 
-    <div>
+    <div class="noticias">
+        <h2 class="titulo-noticias">Noticias</h2>
+        <h3 class="titulo2">Calculá el nuevo tiempo de Recoleccion del Aldeano Chino</h3>
+        <div class="aldeano">
+            <img src="img/aldeanoChino.png" alt="aldeano">
+        </div>
 
     </div>
     
