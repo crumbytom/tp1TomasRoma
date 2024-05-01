@@ -4,18 +4,11 @@ $tituloPagina = "Inicio";
 
 require_once("header.php");
 
-require_once("arbusto.php");
-require_once("bancoDePesca.php");
-require_once("pesquero.php");
-
-require_once("aldeanoChino.php");
-require_once("aldeanoFranco.php");
 
 
 ?>
 
-
-<main class>
+<main>
     <div class="main-inicio">
         <div id="carouselExample" class="carousel slide">
             <div class="carousel-inner">
@@ -46,6 +39,10 @@ require_once("aldeanoFranco.php");
         <div class="aldeano">
             <img src="img/aldeanoChino.png" alt="aldeano">
         </div>
+        <div class="boton">
+            <a href="aldeanoRecoleccion.php" class="boton-volver">Calcular Tiempo</a>
+        </div>
+        
 
     </div>
     
@@ -53,21 +50,6 @@ require_once("aldeanoFranco.php");
 
 
 
-<?php
-$arbusto1 =new Arbusto();
-
-$aldeanoChino =new AldeanoChino();
-$aldeanoFranco =new AldeanoFranco();
-
-//$aldeanoChino->recolectar($arbusto1);
-
-
-$pesquero1 =new Pesquero();
-$bancodepesca = new bancoDePesca();
-//$pesquero1->recolectar($bancodepesca);
-
-
-?>
 
 <?php
     include_once("footer.php"); // solo llamo al footer
