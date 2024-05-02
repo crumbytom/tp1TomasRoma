@@ -43,7 +43,7 @@ require_once("header.php");
 
         <h3 class="titulo2">Calculá el nuevo tiempo de Recoleccion del Pesquero</h3>
         <div class="div-aldeano">
-            <a href="pesqueroRecoleccion.php" class="boton-aldeano">Calcular tiempo</a>
+            <a href="aldeanoRecoleccion.php" class="boton-aldeano">Calcular tiempo</a>
         </div>
         <div class="aldeano">
             <img src="img/pesquero.png" alt="aldeano">

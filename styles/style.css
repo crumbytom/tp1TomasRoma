@@ -60,6 +60,9 @@ body{
 }
 
 
+
+
+
 /*TODO HEADERRR*/
 
 .logo{
@@ -238,7 +241,7 @@ nav a:hover{
     border-radius: 10px;
     background-color: #303c56;
     font-size: 20px;
-    margin-bottom: 415px;
+    margin-bottom: 41px;
 }
 
 .boton-volver2:hover{

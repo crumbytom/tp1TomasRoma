@@ -18,7 +18,7 @@ require_once("recolector.php");
 
             $tiempo = ceil($cantidadAlimento/$this->velocidadRecoleccion);
 
-            echo "El aldeano recolectó todos los arbustos en ".$tiempo." minutos";
+            echo "El aldeano recolecta todos los arbustos en ".$tiempo." minutos";
          }
 
          public function getBonus(){
